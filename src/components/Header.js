@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Header = () => {
     return (
-        <Header.Wrapper data-aos="fade" data-aos-duration="2000">
+        <Header.Wrapper data-aos="zoom-in" data-aos-duration="2000">
            <Navbar /> 
         </Header.Wrapper>
     )

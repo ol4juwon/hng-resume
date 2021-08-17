@@ -7,6 +7,9 @@ import javaLogo from '../../assets/img/java.jpeg'
 import phpLogo from '../../assets/img/PHP.jpg'
 import htmlLogo from '../../assets/img/html.png'
 import cssLogo from '../../assets/img/css.png'
+import hngLogo from '../../assets/img/hng.png'
+import zuriLogo from '../../assets/img/zuri.png'
+import i4gLogo from '../../assets/img/i4g.png'
 import Flipcard from '../Flipcard'
 const Home = () => {
     const juwon =( <div ><h3>Name:</h3><p>Olajuwon Lawal</p></div>);
@@ -75,9 +78,16 @@ const Home = () => {
                 <li>
                     <h3>TM30 Global</h3>
                     <h4>Fullstack Intern</h4>
-                    <p>feb, 2012 till Date</p>
+                    <p>Feb, 2012 till Date</p>
                 </li>
             </ul>
+
+            <hr />
+            <div data-aos="zoom-out" data-aos-delay="1000"  data-aos-duration="5000" className="footer">
+            <a href="zuri.team"><img src={hngLogo} alt="HNGi8" width="100px" height="100px"/></a>
+            <a href="internship.zuri.team"><img src={zuriLogo} alt="Zuri" width="100px" height="100px" /></a>
+            <a href="internship.zuri.team"><img src={i4gLogo} alt="Ingressive 4 good" width="250px" height="100px" /></a>
+            </div>
         </Home.Wrapper>
     )
 }
@@ -101,6 +111,13 @@ h2{
 div{
     display: flex;
     flex-direction: column wrap;
+}
+.footer{
+width: 50%;
+margin: 0 auto;
+a{
+    margin:10px;
+}
 }
 @media   screen and (max-width:420px){
     width:100%;
